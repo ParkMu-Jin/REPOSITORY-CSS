@@ -1,0 +1,83 @@
+/* Creado por Aldhair Rodriguez - 2025-9-30 */
+body 
+{
+    background-color: #c1c6cc;  /* Fondo de color  */
+    font-family: sans-serif; /* fuente para la web */
+}
+
+#encabezado-principal 
+{
+    text-align: center; /* Centra el texto*/
+    color: #600968;  /* Aigna un color */
+    font-size: 40px;  /* un tamaño */
+}
+
+.tarjeta-destino 
+{
+    border: 1px solid #b3a4a4;  /* Borde */
+    padding: 16px;  /* Espaciado interno */
+    margin: 20px;   /* Margen */
+    width: 80%;     /* Ancho */
+    position: relative; /* Referencia absoluta */
+}
+
+.tarjeta-destino img {
+    float: left;         /* imagen flotante */
+    margin-right: 15px;  /* Separacion en el texto */
+}
+
+.destacado 
+{
+    font-weight:bold;         /* pone la letra en negrita */
+    background-color: yellow; 
+}
+
+.menu-navegacion a 
+{
+    text-decoration: none;  /* Sin subrayado */
+}
+
+.menu-navegacion a:hover 
+{
+    color: #f8c146;              /* Color al pasar cursor */
+    text-decoration: underline;  /* Subrayado al pasar cursor */
+}
+
+.etiqueta-nuevo 
+{
+    position: absolute;           /* Posición absoluta */
+    top: 10px;                    /* Arriba */
+    right: 10px;                  /* Derecha */
+    background-color: #6a0f7c;    /* Fondo etiqueta */
+    padding: 4px 10px;            /* Espaciado */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08); /* Sombra */
+}
+
+.menu-navegacion
+{
+    position: fixed;           /* Fija en una posicion */
+    top: 0;
+    width: 100%;
+    background-color: #79417e; /* Fondo para el menu*/
+}
+
+img 
+{
+    max-width: 100%; /* Imagen adaptable */
+    height: auto;    /* Mantener proporción */
+}
+
+/* Móvil */
+@media (max-width: 600px) 
+{
+    h1
+    {
+        font-size: 14px; /* h1 pequeño */
+    }
+    .tarjeta-destino
+    {
+        width: 100%; /* Tarjeta ancho completo */
+    }
+}
+
+
